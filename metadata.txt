@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=sentinelhub
+qgisMinimumVersion=2.0
+description=sentinelhub
+version=0.1
+author=geodrinx
+email=geodrinx@gmail.com
+
+about=From QGIS window, this plugin calls Sentinel-Hub to browse satellite 10 meters pixel images: http://apps.sentinel-hub.com/sentinel-playground
+
+tracker=https://github.com/geodrinx/sentinelhub/issues/
+repository=https://github.com/geodrinx/sentinelhub/
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=web, raster, remote sensing
+
+homepage=http://plugins.qgis.org/plugins/sentinelhub/
+category=Web
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
